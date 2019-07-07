@@ -1,2 +1,3 @@
-const sayHi = require("mynodemodule");
-sayHi();
+const my = require("mynodemodule");
+my.sayHi();
+my.sayHello();

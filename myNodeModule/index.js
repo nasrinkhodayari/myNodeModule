@@ -1,5 +1,10 @@
 
 "use strict";
-module.exports = function sayHi() {
-    console.log('Hi Nasrin :)');
+module.exports = {
+    sayHi: function () {
+        console.log('Hi Nasrin :)');
+    },
+    sayHello: function () {
+        console.log('Hello Nasrin :)');
+    }
 }
